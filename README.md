@@ -4,10 +4,10 @@ A simple SwiftUI property wrapper for synchronized interaction with Keychain.
 
 ## Features
 
-[x] Supports all types that confirm `Sendable`, `Equatable`, and `Codable` protocols.
-[x] Synchorizes data across all `@KeychainStorage`s with the same key and data type.
-[x] Supports any custom Keychain objects that confirm a `KeychainProvider` protocol.
-[x] Optional values support.
+- [x] Supports all types that confirm `Sendable`, `Equatable`, and `Codable` protocols.
+- [x] Synchorizes data across all `@KeychainStorage`s with the same key and data type.
+- [x] Supports any custom Keychain objects that confirm a `KeychainProvider` protocol.
+- [x] Optional values support.
 
 ## Motivation
 
