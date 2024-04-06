@@ -35,7 +35,7 @@ struct ReaderView: View {
 
 Despite the easy-to-use UserDefaults property wrappers, there are no objects to work with Keychain that way. This library aims to provide a similar experience interacting with Keychain.
 
-## How does is work?
+## How does it work?
 
 I don’t know how `@AppStorage` and `@SceneStorage` work internally. I suppose they may use KVO (or a similar approach) to observe `UserDefaults` changes to receive actual data. We can’t use Keychain that way, because there is no API to provide a callback that will be called when an object for a certain key changes (or any other callbacks except [this only one deprecated function](https://developer.apple.com/documentation/security/1394998-seckeychainaddcallback) that can be used only on macOS).
 
